@@ -6,6 +6,20 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
+    name: "Movie Search",
+    description: "Movie Search es una aplicación web que permite buscar películas por su título. Para el desarrollo de esta aplicación se utilizaron las siguientes tecnologías: El framework Next.js se utilizó para la rendirizacion del lado del servidor, además se utilizó la librería React para la construcción de la interfáz de usuario. Se utilizaron los Hooks de React, como useState, useEffect, useCallback, useMemo y useRef, para manejar el estado de la aplicación, optimizar el rendimiento, y mejorar la experiencia del usuario. Además se utilizó la API Omdb.api, que es una base de datos de películas muy popular y completa. Finalmente, se utilizó Water.css para aplicar estilos a la aplicación ",
+    image: "/movie-search.png",
+    github: "https://github.com/AldairMorales/movie-search",
+    link: "https://movie-search-three-mocha.vercel.app/",
+  },
+  {
+    name: "Mail Notifier",
+    description: "Mail notifier es una aplicación que permite enviar notificaciones al correo personal. Se implemento con Nextjs, React y Chakra-ui, este último para el control del formulario y el estilo. Finalmente para el envio de datos y la notificación se utilizó Nodemailer, que es un modulo de Node.js que permite el fácil envio de mensajes por correo.",
+    image: "/mail-notifier.png",
+    github: "https://github.com/AldairMorales/mail-notifier",
+    link: "https://mail-notifier.vercel.app/",
+  },
+  {
     name: "Lancora Page",
     description: "Lancora Page es una pagina web donde se muestran las cartas de comida y un formulario de contacto para la reservacion al restobar.",
     image: "/lancorapage.png",
